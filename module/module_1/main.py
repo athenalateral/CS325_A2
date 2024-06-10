@@ -1,12 +1,15 @@
-import functions.py
+import functions
 
 
 def main():
 
   n = 13
 
-  result = MathThing(n)
+  result = functions.MathThing(n)
 
   print(result)
 
-  OtherThing()
+  functions.OtherThing()
+
+  if __name__ == "__main__":
+    main()
